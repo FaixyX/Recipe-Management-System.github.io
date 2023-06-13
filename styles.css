@@ -1,0 +1,117 @@
+
+
+
+.container {
+  background-color: #4CAF50;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .add-recipe {
+    margin-bottom: 40px;
+  }
+
+  
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  .recipe-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .recipe-actions button {
+    margin-left: 10px;
+  }
+  
+  /* Additional Styles */
+  
+  .container {
+    background-image: url("restaurant-background.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 40px;
+  }
+  
+  h1, h2 {
+    color: #fff;
+  }
+  
+  .add-recipe {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .recipe-list {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  ul#recipes {
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  li {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .recipe-actions button {
+    border: black;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .recipe-list-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .recipe-actions button:hover {
+    background-color: #45a049;
+  }
+  
+  #image-preview {
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 10px;
+    border: 2px solid #0c0b0b;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  #image-preview img {
+    border: rgb(35, 22, 22);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

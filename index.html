@@ -1,0 +1,40 @@
+ <!-- Faizan Faryad # 292168 -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipe Management System</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Recipe Management System</h1>
+    <div class="add-recipe">
+      <h2 style="color: black;">Add Recipe</h2>
+      <form id="recipe-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" required>
+        
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" required></textarea>
+        
+        <label for="instructions">Instructions:</label>
+        <textarea id="instructions" required></textarea>
+        
+        <label for="image">Image:</label>
+        <input type="file" id="image" accept="image/*">
+        <div id="image-preview"></div>
+        <input type="submit" value="Add Recipe">
+      </form>
+    </div>
+    
+    <div class="recipe-list">
+      <h2 style="color: black;">Recipe List</h2>
+      <ul id="recipes"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
